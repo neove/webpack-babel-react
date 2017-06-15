@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "https://github.com/neove/webpack-babel-react.git",
   "author": "lihe3 <lihe3@corp.beisencorp.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "redux": "^3.6.0",
+    "webpack": "^2.6.1"
+  }
 }
