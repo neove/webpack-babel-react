@@ -1,0 +1,8 @@
+{
+  "name": "webpack-babel-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/neove/webpack-babel-react.git",
+  "author": "lihe3 <lihe3@corp.beisencorp.com>",
+  "license": "MIT"
+}
