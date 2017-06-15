@@ -6,5 +6,5 @@ export default class Demo extends Component{
     </div>
   }
 }*/
-
+import './index.css'
 document.write('it works')
