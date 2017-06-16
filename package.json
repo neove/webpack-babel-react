@@ -16,6 +16,7 @@
     "webpack": "^2.6.1"
   },
   "scripts": {
-    "debug": "node --inspect --debug-brk node_modules/.bin/webpack --config webpack/webpack.config.js"
+    "debug": "node --inspect --debug-brk node_modules/.bin/webpack --config webpack/webpack.config.js",
+    "build":"webpack --config webpack.config.js"
   }
 }

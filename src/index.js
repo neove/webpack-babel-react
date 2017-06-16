@@ -6,5 +6,10 @@ export default class Demo extends Component{
     </div>
   }
 }*/
-import './index.css'
-document.write('it works')
+// import './index.css'
+// import a from './entry.js'
+// document.write(a)
+import asyncModule  from './entry.js';
+require.ensure([],(a)=>{
+  asyncModule.then(a => document.write(a));
+})

@@ -60,16 +60,19 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "./dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__entry_js__ = __webpack_require__(1);
 /*import react,{Component} from 'react'
 export default class Demo extends Component{
   render(){
@@ -78,8 +81,30 @@ export default class Demo extends Component{
     </div>
   }
 }*/
+// import './index.css'
+// import a from './entry.js'
+// document.write(a)
 
-document.write('it works')
+new Promise(function(resolve) { resolve(); }).then(((a)=>{
+  __WEBPACK_IMPORTED_MODULE_0__entry_js__["a" /* default */].then(a => document.write(a));
+}).bind(null, __webpack_require__)).catch(__webpack_require__.oe)
+
+/***/ }),
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// export default '123'
+/* harmony default export */ __webpack_exports__["a"] = (new Promise((resolve,reject)=>{
+    resolve('resolve')
+}));
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(0);
+
 
 /***/ })
 /******/ ]);
