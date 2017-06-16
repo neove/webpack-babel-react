@@ -86,7 +86,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + ({}[chunkId]||chunkId) + ".chunk.js";
+/******/ 		script.src = __webpack_require__.p + "" + ({"0":"component"}[chunkId]||chunkId) + ".chunk.js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
@@ -154,8 +154,7 @@
 
 
 __webpack_require__.e/* require.ensure */(0).then(((a)=>{
-  let {asyncModule} = __webpack_require__(2);
-  debugger
+  let {asyncModule} = __webpack_require__(2);//require 问题
   asyncModule.then(a => document.write(a));
 }).bind(null, __webpack_require__)).catch(__webpack_require__.oe)
 
