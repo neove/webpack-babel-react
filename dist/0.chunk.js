@@ -5,10 +5,12 @@ webpackJsonp([0],{
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "asyncModule", function() { return asyncModule; });
 // export default '123'
-/* harmony default export */ __webpack_exports__["default"] = (new Promise((resolve,reject)=>{
+let asyncModule = new Promise((resolve,reject)=>{
     resolve('resolve')
-}));
+});
+
 
 /***/ })
 
