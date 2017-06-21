@@ -1,6 +1,6 @@
 var path = require("path");
 var webpack = require('webpack')
-
+var plugins = require('./webpack/plugins')
 module.exports = {
   entry: "./src/index.js",//入口文件
   output: {
@@ -56,7 +56,5 @@ module.exports = {
   },
 
   //webpack插件
-  plugins:[
-    new webpack.HotModuleReplacementPlugin(),
-  ]
+  plugins:plugins
 };

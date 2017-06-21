@@ -5,5 +5,5 @@ import ReactDOM from 'react-dom'
 if (module.hot) module.hot.accept()
 
 ReactDOM.render(
-    <App/> ,document.getElementById('container')
+    <App /> ,document.getElementById('container')
 )

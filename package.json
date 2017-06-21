@@ -14,12 +14,15 @@
     "babel-preset-stage-2": "^6.24.1",
     "codecov": "^2.2.0",
     "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "redux": "^3.6.0",
     "style-loader": "^0.18.2",
     "travis": "^0.1.1",
-    "webpack": "^2.6.1"
+    "webpack": "^2.6.1",
+    "webpack-bundle-analyzer": "^2.8.2",
+    "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
     "debug": "node --inspect --debug-brk node_modules/.bin/webpack --config webpack/webpack.config.js",
