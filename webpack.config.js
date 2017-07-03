@@ -13,7 +13,7 @@ module.exports = {
   },
   devServer: {
     port:'8800',//服务端口号
-    hot: true,// hot module replacement. Depends on HotModuleReplacementPlugin
+    // hot: true,// hot module replacement. Depends on HotModuleReplacementPlugin
     contentBase: __dirname + "/dist",
     // 开启服务后端口对应的静态文件地址,在该目录下添加index.html文件，并引入js文件 assets/bundle.js
     // proxy: { // proxy URLs to backend development server
@@ -54,7 +54,11 @@ module.exports = {
       }
     ]
   },
-
+  externals : {
+    'react':'react',
+    'react-dom':'react-dom',
+    'immutable':'immutable'
+  },
   //webpack插件
   plugins:plugins
 };

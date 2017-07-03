@@ -6,7 +6,7 @@ import React,{Component}from 'react'
 import './index.css'
 export default class App extends Component{
     render(){
-        return <div>ssdddsdds</div>
+        return <div>eeeddbbbbbbddd</div>
     }
 }
 
